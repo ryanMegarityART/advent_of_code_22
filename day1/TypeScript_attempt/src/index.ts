@@ -1,4 +1,5 @@
-import fs from "fs/promises"
+import { promises as fs } from 'fs';
+
 const INPUT_FILE_PATH = `${__dirname}/input.txt`
 
 async function readFromFile(filePath: string) {
